@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="font-sans text-gray-800">
+    <div className="font-sans text-gray-800 overflow-x-hidden">
       {/* Hero Section */}
       <section
         className="relative h-screen bg-cover bg-center"
@@ -39,7 +39,7 @@ const Home = () => {
           <div className="bg-gray-100 p-6 rounded-lg shadow">
             <img
               src="https://img.icons8.com/ios/100/real-estate.png"
-              className="mx-auto mb-4"
+              className="mx-auto mb-4 max-w-full h-auto"
               alt="Real Estate"
             />
             <h3 className="text-xl font-semibold mb-2">Real Estate</h3>
@@ -53,7 +53,7 @@ const Home = () => {
           <div className="bg-gray-100 p-6 rounded-lg shadow">
             <img
               src="https://img.icons8.com/ios/100/money--v1.png"
-              className="mx-auto mb-4"
+              className="mx-auto mb-4 max-w-full h-auto"
               alt="Finance"
             />
             <h3 className="text-xl font-semibold mb-2">Financial Services</h3>
@@ -67,7 +67,7 @@ const Home = () => {
           <div className="bg-gray-100 p-6 rounded-lg shadow">
             <img
               src="https://img.icons8.com/ios/100/farm.png"
-              className="mx-auto mb-4"
+              className="mx-auto mb-4 max-w-full h-auto"
               alt="Agriculture"
             />
             <h3 className="text-xl font-semibold mb-2">Agriculture</h3>

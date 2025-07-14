@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu, X } from "lucide-react"; // Make sure you have this package installed
+import { Menu, X } from "lucide-react"; // Ensure this package is installed
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,7 +9,12 @@ const Header = () => {
     <header className="bg-white shadow-md w-full z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo or Brand Name */}
-        <div className="text-xl font-bold text-yellow-600">Rwempango Group</div>
+        <a
+          href="/"
+          className="text-xl font-bold text-yellow-600 hover:underline"
+        >
+          Rwempango Group
+        </a>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-8 text-gray-700 font-medium">

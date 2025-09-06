@@ -8,7 +8,7 @@ const Home = () => {
         className="relative h-screen bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1581092919537-6c50d63f4f82')",
+            "url('https://www.google.com/imgres?q=group%20of%20companies%20images&imgurl=https%3A%2F%2Fwww.macrogroupofcompanies.com%2Fimg%2Fgroup_company.jpg&imgrefurl=https%3A%2F%2Fwww.macrogroupofcompanies.com%2F&docid=1iL_NUAx7v6G2M&tbnid=hUkCDrW-CAo78M&vet=12ahUKEwi_2cPgh7yOAxUtcKQEHYl4AysQM3oECHwQAA..i&w=839&h=497&hcb=2&ved=2ahUKEwi_2cPgh7yOAxUtcKQEHYl4AysQM3oECHwQAA')",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">

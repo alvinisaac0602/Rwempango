@@ -4,7 +4,7 @@ import {
   TwitterLogo,
   LinkedinLogo,
   InstagramLogo,
-} from "phosphor-react"; // Using Phosphor icons here (install with `npm install phosphor-react`)
+} from "phosphor-react"; // Make sure to install with `npm install phosphor-react`
 
 const Footer = () => {
   return (
@@ -33,17 +33,22 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-yellow-500">
-                About Us
+              <a href="/realestate" className="hover:text-yellow-500">
+                Real Estate
               </a>
             </li>
             <li>
-              <a href="#services" className="hover:text-yellow-500">
-                Our Services
+              <a href="/finance" className="hover:text-yellow-500">
+                Financial Services
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-yellow-500">
+              <a href="/agricproducts" className="hover:text-yellow-500">
+                Agricultural Products
+              </a>
+            </li>
+            <li>
+              <a href="/contact" className="hover:text-yellow-500">
                 Contact
               </a>
             </li>
@@ -66,7 +71,7 @@ const Footer = () => {
               </a>
             </li>
             <li>Phone: +256 700 000 000</li>
-            <li>Location: Kampala, Uganda</li>
+            <li>Location: Mukono, Uganda</li>
           </ul>
         </div>
 
